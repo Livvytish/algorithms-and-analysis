@@ -12,11 +12,13 @@
 
 - Comes from the latinisation of the name of some Arabic man :)
 
-**2. Given that the official purpose of the U.S. patent system is the promotion of the “useful arts,” do you think algorithms are patentable in this scountry? Should they be?**
+## 2. Given that the official purpose of the U.S. patent system is the promotion of the “useful arts,” do you think algorithms are patentable in this scountry? Should they be?
 
 Depends on the perspective you look at it from!
 
-**3. a. Write down the steps for installing a television set in your home with the precision required from an algorithm’s description.**
+## 3. 
+
+### a. Write down the steps for installing a television set in your home with the precision required from an algorithm’s description.
 
 1. Place TV on cabinet
 2. Plug chord into back of TV.
@@ -24,7 +26,7 @@ Depends on the perspective you look at it from!
 4. Turn plug on
 5. Turn TV on
 
-**b. Write down the steps for preparing tea with the precision required by an algorithm.**
+### b. Write down the steps for preparing tea with the precision required by an algorithm.**
 
 1. Get kettle
 2. Open spout
@@ -43,7 +45,7 @@ Depends on the perspective you look at it from!
 15. Get milk
 16. Pour 10ml milk
 
-**4. Write an algorithm for sorting integer numbers in ascending order using any sorting technique. For example, the unsorted numbers are 23, 45, 12, 37, 11, 56 and the sorted numbers in ascending order are 11, 12, 23, 37, 45, 56.**
+## 4. Write an algorithm for sorting integer numbers in ascending order using any sorting technique. For example, the unsorted numbers are 23, 45, 12, 37, 11, 56 and the sorted numbers in ascending order are 11, 12, 23, 37, 45, 56.
 
 ```json
 numbers = [23, 45, 12, 37, 11, 56]
