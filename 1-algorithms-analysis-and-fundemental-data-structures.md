@@ -12,7 +12,7 @@
 
 - Comes from the latinisation of the name of some Arabic man :smile:
 
-**2. Given that the official purpose of the U.S. patent system is the promotion of the “useful arts,” do you think algorithms are patentable in this country? Should they be?**
+**2. Given that the official purpose of the U.S. patent system is the promotion of the “useful arts,” do you think algorithms are patentable in this scountry? Should they be?**
 
 
 
