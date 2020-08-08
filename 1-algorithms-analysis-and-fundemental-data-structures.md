@@ -1,3 +1,5 @@
+# Week 1 - Algorithms analysis and fundemental data structures
+
 ## 1. What is an algorithm and what are its characteristics? Are algorithms language-specific? Explain the derivation of the term “algorithm.”
 
 - **What is an algorithm**
