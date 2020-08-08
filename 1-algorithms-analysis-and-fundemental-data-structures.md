@@ -3,10 +3,10 @@
 ## 1. What is an algorithm and what are its characteristics? Are algorithms language-specific? Explain the derivation of the term “algorithm.”
 
 - **What is an algorithm**
-  - Sequence of unambiguous instructions
-  - Solves a problem
-  - Obtains required output
-  - Based on any legitimate input in a finite amount of time
+    - Sequence of unambiguous instructions
+    - Solves a problem
+    - Obtains required output
+    - Based on any legitimate input in a finite amount of time
 
 - Algorithms are **not** language specific
 
