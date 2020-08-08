@@ -84,6 +84,7 @@ Bubble sort c from here (as above)
 
 ### a. Find gcd(31415, 14142) by applying Euclid’s algorithm.
 
+```
 31415 mod 14142 = 3131
 14142 mod 3131 = 1618
 3131 mod 1618 = 1513
@@ -93,6 +94,7 @@ Bubble sort c from here (as above)
 43 mod 19 = 5
 19 mod 5 = 4
 5 mod 4 = 1
+```
 
 These two numbers are coprime.
 
