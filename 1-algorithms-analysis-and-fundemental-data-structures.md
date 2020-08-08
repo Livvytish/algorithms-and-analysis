@@ -61,3 +61,46 @@ swapcount++
 
 repeat until swapcount = 0
 ```
+
+## 5. Design an algorithm to find the sorted list from two sorted lists of numbers. For example, for the lists 2, 5, 7, 12, 13, 24 and 1, 6, 15, 17, 35, the output should be 1, 2, 5, 6, 7, 12, 13, 15, 17, 24, 35. What is the maximum number of comparisons your algorithm makes if the lengths of the two given lists are m and n, respectively?
+
+```
+a = [2, 5, 7, 12, 13, 24]
+b = [1, 6, 15, 17, 35]
+c = []
+
+# Bubble sort - swap adjacent numbers
+
+whilst c.length < (a.length+b.length)
+{
+a[i] < b[i]? do nothing
+else swap
+swapcount++
+}
+
+repeat until swapcount = 0
+```
+
+
+- Maximum number of comparisons is `n x m`
+
+## 6. a. Find gcd(31415, 14142) by applying Euclid’s algorithm.
+b. Estimate how many times faster it will be to find gcd(31415, 14142) by Euclid’s algorithm compared with the algorithm based on checking con- secutive integers from min{m, n} down to gcd(m, n).
+
+## 7. Prove the equality gcd(m, n) = gcd(n, m mod n) for every pair of positive integers m and n.
+
+## 8. What does Euclid’s algorithm do for a pair of integers in which the first is smaller than the second? What is the maximum number of times this can happen during the algorithm’s execution on such an input?
+
+## 9. a. b. What is the maximum number of divisions made by Euclid’s algorithm
+What is the minimum number of divisions made by Euclid’s algorithm among all inputs 1 ≤ m, n ≤ 10?
+
+## 10. a.
+among all inputs 1 ≤ m, n ≤ 10?
+Euclid’s algorithm, as presented in Euclid’s treatise, uses subtractions rather than integer divisions. Write pseudocode for this version of Euclid’s algorithm.
+b. PUZZLE Euclid’s game (see [Bog]) starts with two unequal positive integers on the board. Two players move in turn. On each move, a player has to write on the board a positive number equal to the difference of two numbers already on the board; this number must be new, i.e., different from all the numbers already on the board. The player who cannot move loses the game. Should you choose to move first or second in this game?
+
+## 11. The extended Euclid’s algorithm determines not only the greatest common divisor d of two positive integers m and n but also integers (not necessarily positive) x and y, such that mx + ny = d. a. LookupadescriptionoftheextendedEuclid’salgorithm(see,e.g.,[KnuI,
+p. 13]) and implement it in the language of your choice. b. ModifyyourprogramtofindintegersolutionstotheDiophantineequation
+ax + by = c with any set of integer coefficients a, b, and c.
+
+## PUZZLE 12.	Locker doors	There are n lockers in a hallway, numbered sequentially from 1 to n. Initially, all the locker doors are closed. You make n passes by the lockers, each time starting with locker #1. On the ith pass, i = 1, 2, . . . , n, you toggle the door of every ith locker: if the door is closed, you open it; if it is open, you close it. After the last pass, which locker doors are open and which are closed? How many of them are open?
