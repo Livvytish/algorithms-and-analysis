@@ -141,8 +141,22 @@ Depends on size of number.
 
 ## Exercises 1.2
 
-### 4. What is analgorithm design technique? What is a pseudocode? Describe how you would prove the correctness of an algorithm.
-5. Describe the standard algorithm for finding the decimal representation of a positive binary number a. inEnglish. b. in a pseudocode.
-6. Describe the algorithm used by a telephone to place a phone call. (You may give your description in either English or a pseudocode, whichever you find more convenient.)
-7. What are the qualities that an algorithm should possess? Explain the various steps involved in converting an algorithm into code.
-8. Give an example of a problem other than computing the prime number for which you know more than one algorithm. Computing the greatest common
+### 4. What is an algorithm design technique? What is a pseudocode? Describe how you would prove the correctness of an algorithm.
+
+- **Algorithm design technique** - Also known as 'strategy' or 'paradigm'. Is a **general approach** to **solving problems algorithmically** that is **applicable to a variety of problems** from different areas of computing.
+  - General approach
+  - Solving problems algorithmically
+  - Applicable to variety of problems
+
+- **Pseudocode** is the spanglish of the coding world. There is no officially defined pseudocode in existence. Its a mixture of english and use of coding logic that anyone with basic programming skills should understand. 
+
+- A correct algorithm is an algorithm that works for any and all legitimate inputs.
+
+### 5. Describe the standard algorithm for finding the decimal representation of a positive binary number 
+
+#### a. in English. 
+#### b. in a pseudocode.
+
+### 6. Describe the algorithm used by a telephone to place a phone call. (You may give your description in either English or a pseudocode, whichever you find more convenient.)
+
+### 7. What are the qualities that an algorithm should possess? Explain the various steps involved in converting an algorithm into code.
