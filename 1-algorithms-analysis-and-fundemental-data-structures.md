@@ -180,6 +180,20 @@ for(i=0, i<binary.length i++)
 }
 ```
 
-### 6. Describe the algorithm used by a telephone to place a phone call. (You may give your description in either English or a pseudocode, whichever you find more convenient.)
-
 ### 7. What are the qualities that an algorithm should possess? Explain the various steps involved in converting an algorithm into code.
+
+#### An algorithm should posess
+
+- Efficiency
+  - Time efficiency
+    - How fast the algorithm runs
+  - Space efficiency
+    - How much extra memory it uses
+- Correctness
+  - The algorithm works for all legitmate inputs.
+- Simplicity
+  - This is a more subjective trait of an algorithm. Much like beauty :')
+- Generality
+  - The algorithm should be able to be applied to different instances. 
+  Ie. If two numbers are coprimes - GCD = 1. Better to design algorithm that finds GCD rather than specifically look for coprime. 
+
