@@ -197,6 +197,57 @@ for(i=0, i<binary.length i++)
   - The algorithm should be able to be applied to different instances. 
   Ie. If two numbers are coprimes - GCD = 1. Better to design algorithm that finds GCD rather than specifically look for coprime. 
 
-  ## 1.3 Important problem types
+## 1.3 Important problem types
 
-  
+### Important problem types:
+
+- Sorting
+ - Is **stable** if preserves the relative order of any tweo equal elements in its input.
+ - An algorithm is **in-place** if it does not require extra memory. Some sorting algorithms are in place and others are not. 
+- Searching
+- String processing
+- Graphy problems
+- Combinatorial problems
+- Geometric problems
+- Numerical problems
+
+
+## 1.4 Fundemental Data Structures
+
+A **data structure** can be defined as a particular scheme of organising related data items. 
+
+### Linear data structures
+
+- **Array**
+  - Is a sequence of n items of same data type that are stored contiguously in computer memory and made accessible by specifying a calue of the array's index.
+  - Each element of an array can be accessed in the same constant amount of time refardless of where in the array the element in question is located. Positively distinguishes arrays from linked lists.
+  - Implement variety of data structures, ie. string.
+
+- **Linked list**
+  - Is a sequence of zero or more elements called nodes, each containing two kinds of information: some data and one or more links called pointers to other nodes of the linked list. 
+  - Time it takes to access an element of singly liked list depends on where in the list the element is located. 
+
+- **Lists**
+  - **Stacks**
+    - Insertions and deletions can onl be done at the end. 
+    - Last in first out
+    - Recursive algorithms
+    - Like A STACKA PLATES
+    - Vertical
+
+  - **Queues**
+    - Deleted from the front (dequeue)
+    - Added at the end called the rear (queue)
+    - First in first out
+    - Graph problems
+    - Priority queues exist - best implementation known as a **heap**.
+
+### Graph
+
+
+
+
+
+
+
+
