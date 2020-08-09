@@ -184,16 +184,19 @@ for(i=0, i<binary.length i++)
 
 #### An algorithm should posess
 
-- Efficiency
+- **Correctness**
+  - The algorithm works for all legitmate inputs.
+- **Efficiency**
   - Time efficiency
     - How fast the algorithm runs
   - Space efficiency
     - How much extra memory it uses
-- Correctness
-  - The algorithm works for all legitmate inputs.
-- Simplicity
+- **Simplicity**
   - This is a more subjective trait of an algorithm. Much like beauty :')
-- Generality
+- **Generality**
   - The algorithm should be able to be applied to different instances. 
   Ie. If two numbers are coprimes - GCD = 1. Better to design algorithm that finds GCD rather than specifically look for coprime. 
 
+  ## 1.3 Important problem types
+
+  
