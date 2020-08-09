@@ -202,8 +202,8 @@ for(i=0, i<binary.length i++)
 ### Important problem types:
 
 - Sorting
- - Is **stable** if preserves the relative order of any tweo equal elements in its input.
- - An algorithm is **in-place** if it does not require extra memory. Some sorting algorithms are in place and others are not. 
+  - Is **stable** if preserves the relative order of any tweo equal elements in its input.
+  - An algorithm is **in-place** if it does not require extra memory. Some sorting algorithms are in place and others are not. 
 - Searching
 - String processing
 - Graphy problems
