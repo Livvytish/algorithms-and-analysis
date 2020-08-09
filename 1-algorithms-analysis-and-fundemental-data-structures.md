@@ -1,8 +1,10 @@
 # Week 1 - Algorithms analysis and fundemental data structures
 
-## What is an algorithm?
+## Exercises 1.1
 
-### 1. What is an algorithm and what are its characteristics? Are algorithms language-specific? Explain the derivation of the term “algorithm.”
+### 1. What is an algorithm?
+
+#### 1. What is an algorithm and what are its characteristics? Are algorithms language-specific? Explain the derivation of the term “algorithm.”
 
 - **What is an algorithm?**
   - Sequence of unambiguous instructions
@@ -14,13 +16,13 @@
 
 - Comes from the latinisation of the name of some Arabic man :)
 
-### 2. Given that the official purpose of the U.S. patent system is the promotion of the “useful arts,” do you think algorithms are patentable in this scountry? Should they be?
+#### 2. Given that the official purpose of the U.S. patent system is the promotion of the “useful arts,” do you think algorithms are patentable in this scountry? Should they be?
 
 Depends on the perspective you look at it from!
 
-### 3. 
+#### 3. 
 
-#### a. Write down the steps for installing a television set in your home with the precision required from an algorithm’s description.
+##### a. Write down the steps for installing a television set in your home with the precision required from an algorithm’s description.
 
 1. Place TV on cabinet
 2. Plug chord into back of TV.
@@ -28,7 +30,7 @@ Depends on the perspective you look at it from!
 4. Turn plug on
 5. Turn TV on
 
-#### b. Write down the steps for preparing tea with the precision required by an algorithm.
+##### b. Write down the steps for preparing tea with the precision required by an algorithm.
 
 1. Get kettle
 2. Open spout
@@ -47,7 +49,7 @@ Depends on the perspective you look at it from!
 15. Get milk
 16. Pour 10ml milk
 
-### 4. Write an algorithm for sorting integer numbers in ascending order using any sorting technique. For example, the unsorted numbers are 23, 45, 12, 37, 11, 56 and the sorted numbers in ascending order are 11, 12, 23, 37, 45, 56.
+#### 4. Write an algorithm for sorting integer numbers in ascending order using any sorting technique. For example, the unsorted numbers are 23, 45, 12, 37, 11, 56 and the sorted numbers in ascending order are 11, 12, 23, 37, 45, 56.
 
 ```
 numbers = [23, 45, 12, 37, 11, 56]
@@ -63,7 +65,7 @@ swapcount++
 repeat until swapcount = 0
 ```
 
-### 5. Design an algorithm to find the sorted list from two sorted lists of numbers. For example, for the lists 2, 5, 7, 12, 13, 24 and 1, 6, 15, 17, 35, the output should be 1, 2, 5, 6, 7, 12, 13, 15, 17, 24, 35. What is the maximum number of comparisons your algorithm makes if the lengths of the two given lists are m and n, respectively?
+#### 5. Design an algorithm to find the sorted list from two sorted lists of numbers. For example, for the lists 2, 5, 7, 12, 13, 24 and 1, 6, 15, 17, 35, the output should be 1, 2, 5, 6, 7, 12, 13, 15, 17, 24, 35. What is the maximum number of comparisons your algorithm makes if the lengths of the two given lists are m and n, respectively?
 
 ```
 a = [2, 5, 7, 12, 13, 24]
@@ -82,9 +84,9 @@ Bubble sort c from here (as above)
 
 - Maximum number of comparisons is `(n)(m)`
 
-### 6. 
+#### 6. 
 
-#### a. Find gcd(31415, 14142) by applying Euclid’s algorithm.
+##### a. Find gcd(31415, 14142) by applying Euclid’s algorithm.
 
 ```
 31415 mod 14142 = 3131
@@ -101,11 +103,11 @@ Bubble sort c from here (as above)
 These two numbers are coprime.
 
 
-#### b. Estimate how many times faster it will be to find gcd(31415, 14142) by Euclid’s algorithm compared with the algorithm based on checking consecutive integers from min{m, n} down to gcd(m, n).
+##### b. Estimate how many times faster it will be to find gcd(31415, 14142) by Euclid’s algorithm compared with the algorithm based on checking consecutive integers from min{m, n} down to gcd(m, n).
 
 A lot of difference in time!!!!
 
-### 7. Prove the equality gcd(m, n) = gcd(n, m mod n) for every pair of positive integers m and n.
+#### 7. Prove the equality gcd(m, n) = gcd(n, m mod n) for every pair of positive integers m and n.
 
 ```
 gcd(939, 866) = gcd (866, 79)
@@ -116,22 +118,31 @@ gcd(939, 866) = gcd (866, 79)
 76 mod 3 = 0
 ```
 
-### 8. What does Euclid’s algorithm do for a pair of integers in which the first is smaller than the second? What is the maximum number of times this can happen during the algorithm’s execution on such an input?
+#### 8. What does Euclid’s algorithm do for a pair of integers in which the first is smaller than the second? What is the maximum number of times this can happen during the algorithm’s execution on such an input?
 
 - When first number is smaller, the algorithm swaps the 2 integers so that m is larger than n. 
 
 - Once. If swapped initially, will not need to be swapped again.
 
-### 9. 
+#### 9. 
 
-#### a. What is the maximum number of divisions made by Euclid’s algorithm
+##### a. What is the maximum number of divisions made by Euclid’s algorithm
 
 Depends on size of number. 
 
-#### b. What is the minimum number of divisions made by Euclid’s algorithm among all inputs 1 ≤ m, n ≤ 10?
+##### b. What is the minimum number of divisions made by Euclid’s algorithm among all inputs 1 ≤ m, n ≤ 10?
 
 1 ie. 10 mod 5 = 0
 
-# Fundementals of algorithmic problem solving
+### 2. Fundementals of algorithmic problem solving
 
 ![Algorithm design and analysis process](img/algorithm-design-and-analysis-process.png)
+
+
+## Exercises 1.2
+
+### 4. What is analgorithm design technique? What is a pseudocode? Describe how you would prove the correctness of an algorithm.
+5. Describe the standard algorithm for finding the decimal representation of a positive binary number a. inEnglish. b. in a pseudocode.
+6. Describe the algorithm used by a telephone to place a phone call. (You may give your description in either English or a pseudocode, whichever you find more convenient.)
+7. What are the qualities that an algorithm should possess? Explain the various steps involved in converting an algorithm into code.
+8. Give an example of a problem other than computing the prime number for which you know more than one algorithm. Computing the greatest common
