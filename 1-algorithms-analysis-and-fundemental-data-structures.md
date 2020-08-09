@@ -155,7 +155,30 @@ Depends on size of number.
 ### 5. Describe the standard algorithm for finding the decimal representation of a positive binary number 
 
 #### a. in English. 
+
+1011 = 11
+
+1 | 0 | 1 | 1
+--|---|---|---
+8 | 4 | 2 | 1 
+
+= 8 + 3 + 1 = 11
+
 #### b. in a pseudocode.
+
+```
+binary = [1,0,1,1]
+decimal = [8, 4, 2, 1]
+value = 0
+
+for(i=0, i<binary.length i++)
+{
+  if(binary[i] == 1)
+  {
+    value += decimal[i]
+  }
+}
+```
 
 ### 6. Describe the algorithm used by a telephone to place a phone call. (You may give your description in either English or a pseudocode, whichever you find more convenient.)
 
